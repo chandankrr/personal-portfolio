@@ -3,7 +3,7 @@ import { BsAwardFill } from 'react-icons/bs';
 import { FaUser } from 'react-icons/fa';
 import girl from '../../../images/girl.png';
 import hand from '../../../images/hand.png';
-import CallToAction from '../shared/CallToAction/CallToAction';
+import CallToAction from '../../shared/CallToAction/CallToAction';
 import './style.scss';
 
 const IntroContent = () => {

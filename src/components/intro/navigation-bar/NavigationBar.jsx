@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../../../images/logo.png';
-import CallToAction from '../shared/CallToAction/CallToAction';
+import CallToAction from '../../shared/CallToAction/CallToAction';
 import './style.scss';
 
 const NavigationBar = () => {
