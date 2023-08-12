@@ -4,6 +4,7 @@ import { FaUser } from 'react-icons/fa';
 import girl from '../../../images/girl.png';
 import hand from '../../../images/hand.png';
 import CallToAction from '../../shared/CallToAction/CallToAction';
+import { scrollToSection } from '../../utils/helpers';
 import './style.scss';
 
 const IntroContent = () => {
@@ -26,7 +27,10 @@ const IntroContent = () => {
             blanditiis voluptates consectetur quasi rem doloribus animi ab rerum
             eligendi?
           </p>
-          <CallToAction text="Contact me" />
+          <CallToAction
+            text="Contact me"
+            action={() => scrollToSection('contact')}
+          />
         </div>
         <div className="right-col">
           <img src={girl} alt="" />
