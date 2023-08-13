@@ -1,5 +1,6 @@
 import React from 'react';
 import { AiOutlineCloudDownload } from 'react-icons/ai';
+import Resume from '../../doc/Chandan Kumar_resume.pdf';
 import TechIcons from '../../images/tech-icons.png';
 import CallToAction from '../shared/CallToAction/CallToAction';
 import Section from '../shared/section/Section';
@@ -23,6 +24,7 @@ const Skills = () => {
           </p>
           <CallToAction
             text="Download Resume"
+            action={() => window.open(Resume)}
             icon={<AiOutlineCloudDownload />}
           />
         </div>
