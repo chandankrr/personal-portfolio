@@ -5,18 +5,26 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  height: 538px;
-  width: calc(100 / 3);
+  width: 100%;
   border-radius: 16px;
   overflow: hidden;
-  margin-right: 20px;
+  margin-bottom: 20px;
   cursor: pointer;
+  @include small-screen {
+    height: 538px;
+    width: calc(100 / 3);
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
 
   .image-section {
     width: 100%;
-    height: 250px;
+    height: 200px;
     overflow: hidden;
     @include transition-ease;
+    @include small-screen {
+      height: 250px;
+    }
 
     img {
       width: 100%;
@@ -31,11 +39,14 @@
     display: flex;
     flex-direction: column;
     padding: 30px;
-    padding-bottom: 55px;
+    padding-bottom: 75px;
     position: relative;
     flex-grow: 1;
     background-color: $white;
     @include transition-ease;
+    @include small-screen {
+      padding-bottom: 55px;
+    }
 
     .info-bar {
       display: flex;
@@ -73,16 +84,18 @@
   }
 
   &:hover {
-    .image-section {
-      transform: scale(1.2);
-    }
+    @include small-screen {
+      .image-section {
+        transform: scale(1.2);
+      }
 
-    .content-section {
-      background-color: $black-light;
-      color: $white;
-
-      p {
+      .content-section {
+        background-color: $black-light;
         color: $white;
+
+        p {
+          color: $white;
+        }
       }
     }
   }
