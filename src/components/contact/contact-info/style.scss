@@ -3,14 +3,21 @@
 
 .contact-info-box {
   background-color: $black-lighter;
-  width: 335px;
-  padding: 30px;
+  width: 100%;
+  padding: 15px;
   border-radius: 6px;
   color: $gray;
+  @include small-screen {
+    width: 355px;
+    padding: 30px;
+  }
 
   h4 {
-    line-height: 34px;
+    line-height: 24px;
     margin-bottom: 20px;
+    @include small-screen {
+      line-height: 34px;
+    }
   }
 
   .contact-option {
