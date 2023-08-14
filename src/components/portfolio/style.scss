@@ -1,7 +1,13 @@
-@import '../../style-config/mixins.scss', '../../style-config/variable.scss';
+@import '../../style-config/mixins.scss';
 
-.portfolio-content-wrapper {
+.blogs-content-wrapper {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   width: 100%;
+  margin-top: 25px;
+  flex-direction: column;
+  @include small-screen {
+    margin-top: 75px;
+    flex-direction: row;
+  }
 }

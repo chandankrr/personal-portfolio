@@ -1,7 +1,6 @@
 import React from 'react';
-import { BsAwardFill } from 'react-icons/bs';
-import { FaUser } from 'react-icons/fa';
-import girl from '../../../images/girl.png';
+import { FaJava, FaReact } from 'react-icons/fa';
+import girl from '../../../images/girl.svg';
 import hand from '../../../images/hand.png';
 import CallToAction from '../../shared/CallToAction/CallToAction';
 import { scrollToSection } from '../../utils/helpers';
@@ -23,9 +22,8 @@ const IntroContent = () => {
             <span className="big-text">Chandan Kumar</span>
           </h1>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos beatae
-            blanditiis voluptates consectetur quasi rem doloribus animi ab rerum
-            eligendi?
+            Final-year Computer Science student with a passion for innovative
+            software solutions and a drive to excel in the dynamic tech realm.
           </p>
           <CallToAction
             text="Contact me"
@@ -36,17 +34,17 @@ const IntroContent = () => {
           <img src={girl} alt="" />
           <div className="highlights horizontal">
             <div className="icon">
-              <BsAwardFill />
+              <FaJava />
             </div>
-            <div className="text">Best Design Award</div>
+            <div className="text">Programming Language</div>
           </div>
           <div className="highlights vertical">
             <div className="icon">
-              <FaUser />
+              <FaReact />
             </div>
             <div className="text">
-              <span>4k+</span>
-              Happy Customers
+              <span>React.js</span>
+              Web Development
             </div>
           </div>
         </div>

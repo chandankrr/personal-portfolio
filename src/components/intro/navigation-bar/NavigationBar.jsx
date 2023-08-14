@@ -39,12 +39,6 @@ const NavigationBar = () => {
         >
           Portfolio
         </span>
-        <span
-          className="navigation-item"
-          onClick={() => menuItemClickHandler('blogs')}
-        >
-          Blogs & Articles
-        </span>
         <CallToAction
           text="Contact me"
           action={() => menuItemClickHandler('contact')}

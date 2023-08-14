@@ -87,6 +87,9 @@
       }
 
       .copyright-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         color: #777777;
         @include typography(14px, 400, 22px);
       }

@@ -2,7 +2,7 @@ import React from 'react';
 import Arrow from '../../shared/arrow/Arrow';
 import './style.scss';
 
-const BlogCard = ({ user, date, image, title, description }) => {
+const PortfolioCard = ({ user, date, image, title, description }) => {
   return (
     <div className="blog-card">
       <div className="image-section">
@@ -24,4 +24,4 @@ const BlogCard = ({ user, date, image, title, description }) => {
   );
 };
 
-export default BlogCard;
+export default PortfolioCard;

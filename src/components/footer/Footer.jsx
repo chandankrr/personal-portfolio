@@ -1,11 +1,6 @@
 import React from 'react';
-import {
-  FaGithub,
-  FaInstagram,
-  FaLinkedin,
-  FaStackOverflow,
-  FaYoutube,
-} from 'react-icons/fa';
+import { AiOutlineHeart } from 'react-icons/ai';
+import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import Logo from '../../images/logo.png';
 import Section from '../shared/section/Section';
 import { scrollToSection } from '../utils/helpers';
@@ -34,12 +29,6 @@ const Footer = () => {
           </li>
           <li
             className="footer-menu-item"
-            onClick={() => scrollToSection('blogs')}
-          >
-            Blog & Articles
-          </li>
-          <li
-            className="footer-menu-item"
             onClick={() => scrollToSection('contact')}
           >
             Contact me
@@ -47,18 +36,25 @@ const Footer = () => {
         </ul>
         <div className="social-icons">
           <SocialIcon
-            color="#ff0000"
-            icon={<FaYoutube />}
-            link="https://www.youtube.com"
+            color="#0A66C2"
+            icon={<FaLinkedin />}
+            link="https://www.linkedin.com/in/chandan-krr"
           />
-          <SocialIcon color="#0D2636" icon={<FaGithub />} link="" />
-          <SocialIcon color="#0a66c2" icon={<FaLinkedin />} link="" />
-          <SocialIcon color="#f2740d" icon={<FaStackOverflow />} link="" />
-          <SocialIcon color="#E84C88" icon={<FaInstagram />} link="" />
+          <SocialIcon
+            color="#0D2636"
+            icon={<FaGithub />}
+            link="https://github.com/chandankrr"
+          />
+          <SocialIcon
+            color="#E84C88"
+            icon={<FaInstagram />}
+            link="https://www.instagram.com/_chandankrr"
+          />
         </div>
         <div className="bottom-bar">
           <div className="copyright-text">
-            Copyright 2022 JS Dev Hindi | All Rights Reserved
+            Made with &nbsp; <AiOutlineHeart size={18} color="#ff000082" />
+            &nbsp; by Chandan Kumar
           </div>
         </div>
       </div>

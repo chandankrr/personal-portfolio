@@ -7,7 +7,7 @@ import './style.scss';
 
 const Skills = () => {
   return (
-    <Section background="dark" id="skills">
+    <Section background="light" id="skills">
       <div className="skills-content-wrapper">
         <div className="left-col">
           <img src={TechIcons} alt="skills" />
