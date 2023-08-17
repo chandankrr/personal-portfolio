@@ -8,7 +8,11 @@ import './style.scss';
 
 const Portfolio = () => {
   return (
-    <Section id="blogs" title="Checkout My Portfolio" background="dark">
+    <Section
+      id="portfolio"
+      title="Check out My Portfolio Some Major Projects"
+      background="dark"
+    >
       <div className="blogs-content-wrapper">
         <PortfolioCard
           user="Chandan Kumar"

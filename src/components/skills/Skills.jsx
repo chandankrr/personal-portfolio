@@ -15,11 +15,19 @@ const Skills = () => {
         <div className="right-col">
           <h2>Skills</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
-            nostrum minima? Reiciendis sequi sint quas nemo itaque! Doloremque
-            consectetur nostrum laborum facilis saepe! Earum molestias
-            consectetur eligendi unde ipsa esse porro. Deserunt quis excepturi
-            ipsum ab aliquam? Perspiciatis, minus at?
+            With a dynamic skill set spanning Java, JavaScript, HTML, CSS,
+            React, and React Native, I'm adept at crafting interactive and
+            visually appealing web and mobile applications. Proficient in
+            database management, I utilize MySQL and Firebase to efficiently
+            store and retrieve data. My command of Linux empowers me to navigate
+            diverse development environments seamlessly. Git proficiency ensures
+            collaborative and organized version control. Passionate about
+            innovation, I consistently blend creativity and technical prowess to
+            produce exceptional user experiences.
+          </p>
+          <p>
+            <u>Skills Summary:</u> Java, JavaScript, HTML/CSS,
+            React/React-Native, MySQL/Firebase, Linux, Git
           </p>
           <CallToAction
             text="Download Resume"

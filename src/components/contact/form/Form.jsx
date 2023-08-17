@@ -70,7 +70,7 @@ const Form = () => {
             {...register('phone_number', {
               required: 'Phone number is required',
               minLength: {
-                value: 8,
+                value: 10,
                 message: 'Phone number is not valid',
               },
             })}
