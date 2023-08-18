@@ -2,7 +2,14 @@ import React from 'react';
 import Arrow from '../../shared/arrow/Arrow';
 import './style.scss';
 
-const PortfolioCard = ({ user, date, image, title, description }) => {
+const PortfolioCard = ({
+  image,
+  title,
+  description,
+  techstack,
+  github,
+  live,
+}) => {
   return (
     <div className="blog-card">
       <div className="image-section">
@@ -10,13 +17,17 @@ const PortfolioCard = ({ user, date, image, title, description }) => {
       </div>
       <div className="content-section">
         <div className="info-bar">
-          <div className="user-name">By {user}</div>
-          <div className="posted-date">{date}</div>
+          <div className="user-name">{title}</div>
         </div>
-        <h3>{title}</h3>
         <p>{description}</p>
+        <h3 className="tech">{techstack}</h3>
         <div className="readmore-cta">
-          <span className="text">Read More</span>
+          <a className="link1" href={github} target="_blank" rel="noreferrer">
+            GitHub
+          </a>
+          <a className="link2" href={live} target="_blank" rel="noreferrer">
+            Live at
+          </a>
           <Arrow />
         </div>
       </div>
