@@ -18,7 +18,7 @@ const Portfolio = () => {
           image={Blog1}
           title="BiteSquare Go – Food delivery mobile application"
           description="Savor Effortless Dining! Experience React Native-powered ease with intuitive food search, real-time tracking, and efficient admin control. Indulge in seamless meals through BiteSquare Go's innovation."
-          techstack="Tech Stack: React, CSS React-Native, Firebase"
+          techstack="Tech Stack: React, CSS, React-Native, Firebase"
           github={'https://github.com/chandankrr/BiteSquare-Go'}
         />
         <PortfolioCard
