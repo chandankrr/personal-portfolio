@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaJava, FaReact } from 'react-icons/fa';
-import girl from '../../../images/girl.svg';
+import boy from '../../../images/boy.svg';
 import hand from '../../../images/hand.png';
 import CallToAction from '../../shared/CallToAction/CallToAction';
 import { scrollToSection } from '../../utils/helpers';
@@ -31,7 +31,7 @@ const IntroContent = () => {
           />
         </div>
         <div className="right-col">
-          <img src={girl} alt="" />
+          <img src={boy} alt="" />
           <div className="highlights horizontal">
             <div className="icon">
               <FaJava />
