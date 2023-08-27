@@ -104,10 +104,13 @@ const Form = () => {
             {...register('message', {
               required: 'Message is required',
               minLength: {
+                value: 20,
+                message: 'Minimum 20 characters required',
+              },
+              maxLength: {
                 value: 500,
                 message: 'Maximum 500 characters allowed',
               },
-              maxLength: {},
             })}
           />
           {errors.message?.message && (
