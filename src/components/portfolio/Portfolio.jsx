@@ -54,7 +54,7 @@ const Portfolio = () => {
           image={Port5}
           title="Box Office – Web application where you can search for movies, shows and actors details"
           description="Discover the magic of cinema and television with Box Office, a sleek and intuitive web application crafted using cutting-edge technologies like React, Styled Components, CSS, and powerful APIs. Box Office is your one-stop destination for all things entertainment, offering a seamless and immersive experience for movie enthusiasts and TV show aficionados."
-          techstack="Tech Stack: React, Reac"
+          techstack="Tech Stack: React, Styled Components, API"
           github={'https://github.com/chandankrr/box-office'}
           live={'https://chandankrr.github.io/box-office/#/'}
         />
