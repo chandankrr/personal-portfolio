@@ -26,12 +26,12 @@ const Skills = () => {
             produce exceptional user experiences.
           </p>
           <p>
-            <u>Skills Summary:</u> Java, JavaScript, HTML/CSS,
-            React/React-Native, MySQL/Firebase, Linux, Git
+            <u>Skills Summary:</u> Java, JavaScript, HTML, CSS, React,
+            React-Native, Spring, MySQL, MongoDB, Linux, Git
           </p>
           <CallToAction
             text="Download Resume"
-            action={() => window.open('/resume.pdf', '_blank')}
+            action={() => window.open('/Chandan Kumar_resume.pdf', '_blank')}
             icon={<AiOutlineCloudDownload />}
           />
         </div>
