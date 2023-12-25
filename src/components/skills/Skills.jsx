@@ -18,7 +18,7 @@ const Skills = () => {
             With a dynamic skill set spanning Java, JavaScript, HTML, CSS,
             React, and React Native, I'm adept at crafting interactive and
             visually appealing web and mobile applications. Proficient in
-            database management, I utilize MySQL and Firebase to efficiently
+            database management, I utilize MySQL and MongoDB to efficiently
             store and retrieve data. My command of Linux empowers me to navigate
             diverse development environments seamlessly. Git proficiency ensures
             collaborative and organized version control. Passionate about
